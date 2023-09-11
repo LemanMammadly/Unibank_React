@@ -1,0 +1,42 @@
+.statistics{
+    padding: 3rem 7rem;
+}
+
+.boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.box{
+    background-color: #FAFAFA;
+    padding: 50px 60px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.boxH5{
+    font-size: 18px;
+}
+
+.boxSpan{
+    font-size: 52px;
+    color: #ff6400;
+    font-weight: bold;
+}
+
+.boxP{
+    font-size: 14px;
+    color: #000000a6;
+    margin-top: 20px;
+}
+
+.boxBtn{
+    padding: 15px 40px;
+    background-color: #ff6400;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    margin-top: 25px;
+}

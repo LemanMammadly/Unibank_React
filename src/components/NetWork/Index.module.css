@@ -1,0 +1,63 @@
+.netWork{
+    padding: 2rem 7rem;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftNetwork{
+    background-color: #fafafa;
+    padding: 2rem;
+    display: flex;
+    width: 60%;
+    border-radius: 7px;
+}
+
+.rightNetwork{
+    background-image: url("https://unibank.az/assets/images/callcenter.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    background-color: #fafafa;
+    padding: 2rem;
+    display: flex;
+    border-radius: 7px;
+    width: 40%;
+}
+
+
+.leftLeftNetwork{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.rightLeftNetwork{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.leftNetH2{
+    font-size: 28px;
+    color: #ff6400;
+}
+
+.leftNetP{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.leftNetBtn{
+    padding: 15px 25px;
+    border-radius: 25px;
+    background-color: #ff6400;
+    color: #fff;
+    border: none;
+    width: 150px;
+}
+

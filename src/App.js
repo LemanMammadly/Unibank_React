@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/Header/Index.jsx'
+import Slider from './components/Slider/Index.jsx'
+import Statistics from './components/Statistics/Index.jsx'
+import AppBar from './components/AppBar/Index.jsx'
+import AppBarSecond from './components/AppBarSecond/Index.jsx'
+import Exchange from './components/Exchange/Index.jsx'
+import FrontNews from './components/FrontNews/Index.jsx'
+import NetWork from './components/NetWork/Index.jsx'
+import Footer from './components/Footer/Index.jsx'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header/>
+      <Slider/>
+      <Statistics/>
+      <AppBar/>
+      <AppBarSecond/>
+      <Exchange/>
+      <FrontNews/>
+      <NetWork/>
+      <Footer/>
     </div>
   );
 }

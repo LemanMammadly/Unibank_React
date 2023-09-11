@@ -1,0 +1,64 @@
+.frontNews{
+    padding: 2rem 7rem;
+}
+
+.boxesNew{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.boxNew{
+    width: 30%;
+    background-color: #fafafa;
+    padding: 3rem 2rem;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.boxNew:hover{
+    background-color: #ff6400;
+    transition: .5s;
+    color: #fff;
+}
+
+
+.boxNew:hover .boxNewA {
+    transition: .5s;
+    color: #fff;
+}
+
+
+.boxNewA{
+    text-decoration: none;
+    color: #ff6400;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.boxNewP{
+    font-size: 14px;
+    margin: 20px 0;
+    line-height: 23px;
+}
+
+.boxNewSpan{
+    font-size: 12px;
+    color: gray;
+}
+
+
+.bottomNews{
+    margin: 20px 0;
+    text-align: center;
+}
+.newsBtn{
+    background-color: #ff6400;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}

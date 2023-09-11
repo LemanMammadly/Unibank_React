@@ -1,0 +1,37 @@
+.carousel{
+    padding: 0 7rem;
+}
+
+.sliderContent{
+    display: flex !important;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sliderH2{
+    font-size: 34px;
+    font-weight: 800;
+}
+
+.sliderP{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 25px 0;
+}
+
+.sliderBtnOrder{
+    color: #FF6400;
+    padding: 15px 25px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-right: 25px;
+    border: none;
+}
+
+.sliderBtnInfo{
+    background-color: #FF6400;
+    color: #fff;
+    padding: 15px 25px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}

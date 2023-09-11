@@ -1,0 +1,51 @@
+.appbar{
+    padding: 3rem 7rem;
+}
+
+.appbarRight{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.allBar{
+    height: 430px;
+    background-color: #fafafa;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+}
+
+.barH2{
+    font-size: 28px;
+    color: #ff6400;
+    font-weight: bold;
+}
+
+.barP{
+    font-size: 14px;
+    color: #000000ac;
+}
+
+.btnBarActive{
+    background-color: #ff6400;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 20px;
+}
+
+.bottomRight{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.btnBar{
+    background-color: #fff;
+    color: rgba(128, 128, 128, 0.608);
+    padding: 15px 30px;
+    border: 1px solid rgba(128, 128, 128, 0.263);
+    border-radius: 20px;
+}
